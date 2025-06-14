@@ -1,46 +1,81 @@
-# Getting Started with Create React App
+# Vote Roll Display
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React application that displays Congressional vote data from the House of Representatives. The app includes both a frontend UI built with React and a backend server that scrapes vote data from the House Clerk website.
 
-## Available Scripts
+## Project Structure
 
-In the project directory, you can run:
+- `src/` - React frontend code
+- `server.js` - Express backend server for scraping vote data
+- `backend-package.json` - Dependencies for the backend server
 
-### `npm start`
+## Setup Instructions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 1. Install Frontend Dependencies
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```bash
+npm install
+```
 
-### `npm test`
+### 2. Install Backend Dependencies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Install the required backend dependencies:
 
-### `npm run build`
+```bash
+npm install axios cheerio cors express
+npm install nodemon --save-dev
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 3. Start the Backend Server
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+node server.js
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+You should see: `Server running on port 3001`
 
-### `npm run eject`
+### 4. Start the Frontend Development Server
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+In a new terminal:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Troubleshooting
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+If you encounter connection issues between frontend and backend:
+- Make sure the backend server is running on port 3001
+- Check if there are any CORS issues in the browser console
+- The frontend attempts to connect to http://localhost:3001/api/votes
 
-## Learn More
+If the backend server fails to scrape data:
+- The House Clerk website structure might have changed
+- Try updating the selectors in server.js
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Features
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Displays Congressional vote data with clean, modern UI
+- Toggles between different votes
+- Backend server scrapes vote data from the House Clerk website
+- Pagination to navigate through multiple votes
+- Responsive design that works on mobile and desktop
+
+## API Endpoints
+
+### GET /api/votes
+
+Fetches vote data from the House Clerk website.
+
+Query Parameters:
+- `page` - Page number (default: 1)
+- `congressNum` - Congress number (default: 119)
+- `session` - Session (default: '1st')
+
+Example:
+```
+http://localhost:3001/api/votes?page=1&congressNum=119&session=1st
+```
+
+## Data Source
+
+This application fetches data from the [House Clerk's voting records](https://clerk.house.gov/Votes/MemberVotes). 
