@@ -1,64 +1,95 @@
-# Vote Roll Display
+# Congressional Vote Display
 
-A React application that displays Congressional vote data from the House of Representatives. The app includes both a frontend UI built with React and a backend server that scrapes vote data from the House Clerk website.
+A React application that displays and navigates through congressional voting records from the House of Representatives.
 
-## Project Structure
+## Features
 
-- `src/` - React frontend code
-- `server.js` - Express backend server for scraping vote data
-- `backend-package.json` - Dependencies for the backend server
+- Display of recent congressional votes with detailed information
+- Bill text links to Congress.gov
+- Vote results visualization with progress bars
+- Pagination for browsing through votes
+- Responsive design for desktop and mobile
+- Split view layout with vote list and details
 
-## Setup Instructions
+## Tech Stack
 
-### 1. Install Frontend Dependencies
+- React with TypeScript
+- CSS3 with Flexbox
+- Node.js for data processing
+- Cheerio for HTML parsing
+- Axios for HTTP requests
 
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/orionnye/HouseOfCongressDateRollList.git
+cd HouseOfCongressDateRollList
+```
+
+2. Install dependencies:
 ```bash
 npm install
 ```
 
-### 2. Install Backend Dependencies
-
-Install the required backend dependencies:
-
-```bash
-npm install axios cheerio cors express
-npm install nodemon --save-dev
-```
-
-### 3. Start the Backend Server
-
-```bash
-node server.js
-```
-
-You should see: `Server running on port 3001`
-
-### 4. Start the Frontend Development Server
-
-In a new terminal:
-
+3. Start the development server:
 ```bash
 npm start
 ```
 
-## Troubleshooting
+### Data Processing
 
-If you encounter connection issues between frontend and backend:
-- Make sure the backend server is running on port 3001
-- Check if there are any CORS issues in the browser console
-- The frontend attempts to connect to http://localhost:3001/api/votes
+The application includes scripts for fetching and processing vote data:
 
-If the backend server fails to scrape data:
-- The House Clerk website structure might have changed
-- Try updating the selectors in server.js
+- Fetch vote data:
+```bash
+npm run fetch-votes
+```
 
-## Features
+- Check available pages:
+```bash
+npm run check-pages
+```
 
-- Displays Congressional vote data with clean, modern UI
-- Toggles between different votes
-- Backend server scrapes vote data from the House Clerk website
-- Pagination to navigate through multiple votes
-- Responsive design that works on mobile and desktop
+- Extract vote data:
+```bash
+npm run extract-votes
+```
+
+## Project Structure
+
+```
+src/
+├── components/         # React components
+├── utils/             # Utility functions
+├── backend/           # Data processing scripts
+│   └── data/         # Processed vote data
+└── App.tsx           # Main application component
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Data source: [House Clerk](https://clerk.house.gov/)
+- Bill text: [Congress.gov](https://www.congress.gov/)
 
 ## API Endpoints
 
