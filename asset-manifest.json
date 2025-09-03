@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/HouseVoteRollDisplay/static/css/main.22f49fdf.css",
+    "main.js": "/HouseVoteRollDisplay/static/js/main.2f75c0fc.js",
+    "static/js/738.9b1d1425.chunk.js": "/HouseVoteRollDisplay/static/js/738.9b1d1425.chunk.js",
+    "index.html": "/HouseVoteRollDisplay/index.html",
+    "main.22f49fdf.css.map": "/HouseVoteRollDisplay/static/css/main.22f49fdf.css.map",
+    "main.2f75c0fc.js.map": "/HouseVoteRollDisplay/static/js/main.2f75c0fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22f49fdf.css",
+    "static/js/main.2f75c0fc.js"
+  ]
+}
