@@ -1,5 +1,389 @@
 [
   {
+    "date": "Sep 02, 2025, 07:03 PM",
+    "congress": "119th Congress, 1st Session",
+    "rollCallNumber": "220",
+    "billNumber": "H. R. 747",
+    "voteQuestion": "On Motion to Suspend the Rules and Pass, as Amended",
+    "billTitle": "Stop Chinese Fentanyl Act",
+    "voteType": "2/3 Yea-And-Nay",
+    "status": "Passed",
+    "votes": {
+      "yea": 407,
+      "nay": 4,
+      "present": 0,
+      "notVoting": 19
+    }
+  },
+  {
+    "date": "Sep 02, 2025, 06:56 PM",
+    "congress": "119th Congress, 1st Session",
+    "rollCallNumber": "219",
+    "billNumber": "H. R. 4216",
+    "voteQuestion": "On Motion to Suspend the Rules and Pass, as Amended",
+    "billTitle": "Made-in-America Defense Act",
+    "voteType": "2/3 Yea-And-Nay",
+    "status": "Passed",
+    "votes": {
+      "yea": 395,
+      "nay": 20,
+      "present": 0,
+      "notVoting": 15
+    }
+  },
+  {
+    "date": "Jul 23, 2025, 04:08 PM",
+    "congress": "119th Congress, 1st Session",
+    "rollCallNumber": "218",
+    "billNumber": "H. R. 4275",
+    "voteQuestion": "On Motion to Suspend the Rules and Pass, as Amended",
+    "billTitle": "Coast Guard Authorization Act",
+    "voteType": "2/3 Yea-And-Nay",
+    "status": "Passed",
+    "votes": {
+      "yea": 399,
+      "nay": 12,
+      "present": 0,
+      "notVoting": 19
+    }
+  },
+  {
+    "date": "Jul 23, 2025, 03:58 PM",
+    "congress": "119th Congress, 1st Session",
+    "rollCallNumber": "217",
+    "billNumber": "H. R. 3357",
+    "voteQuestion": "On Motion to Suspend the Rules and Pass, as Amended",
+    "billTitle": "Enhancing Multi-Class Share Disclosures Act",
+    "voteType": "2/3 Yea-And-Nay",
+    "status": "Passed",
+    "votes": {
+      "yea": 381,
+      "nay": 31,
+      "present": 0,
+      "notVoting": 18
+    }
+  },
+  {
+    "date": "Jul 22, 2025, 04:56 PM",
+    "congress": "119th Congress, 1st Session",
+    "rollCallNumber": "216",
+    "billNumber": "H. R. 1917",
+    "voteQuestion": "On Motion to Suspend the Rules and Pass, as Amended",
+    "billTitle": "Great Lakes Mass Marking Program Act",
+    "voteType": "2/3 Yea-And-Nay",
+    "status": "Passed",
+    "votes": {
+      "yea": 360,
+      "nay": 57,
+      "present": 0,
+      "notVoting": 13
+    }
+  },
+  {
+    "date": "Jul 22, 2025, 04:48 PM",
+    "congress": "119th Congress, 1st Session",
+    "rollCallNumber": "215",
+    "billNumber": "H. R. 3937",
+    "voteQuestion": "On Motion to Suspend the Rules and Pass, as Amended",
+    "billTitle": "Wabeno Economic Development Act",
+    "voteType": "2/3 Yea-And-Nay",
+    "status": "Passed",
+    "votes": {
+      "yea": 410,
+      "nay": 1,
+      "present": 0,
+      "notVoting": 19
+    }
+  },
+  {
+    "date": "Jul 21, 2025, 07:05 PM",
+    "congress": "119th Congress, 1st Session",
+    "rollCallNumber": "214",
+    "billNumber": "H. R. 3351",
+    "voteQuestion": "On Motion to Suspend the Rules and Pass, as Amended",
+    "billTitle": "Improving Access to Small Business Information Act",
+    "voteType": "2/3 Yea-And-Nay",
+    "status": "Passed",
+    "votes": {
+      "yea": 387,
+      "nay": 12,
+      "present": 0,
+      "notVoting": 31
+    }
+  },
+  {
+    "date": "Jul 21, 2025, 06:58 PM",
+    "congress": "119th Congress, 1st Session",
+    "rollCallNumber": "213",
+    "billNumber": "H. R. 3095",
+    "voteQuestion": "On Motion to Suspend the Rules and Pass, as Amended",
+    "billTitle": "To direct the United States Postal Service to designate single, unique ZIP Codes for certain communities, and for other purposes",
+    "voteType": "2/3 Yea-And-Nay",
+    "status": "Passed",
+    "votes": {
+      "yea": 278,
+      "nay": 121,
+      "present": 0,
+      "notVoting": 31
+    }
+  },
+  {
+    "date": "Jul 18, 2025, 12:45 AM",
+    "congress": "119th Congress, 1st Session",
+    "rollCallNumber": "212",
+    "billNumber": "H. R. 4016",
+    "voteQuestion": "On Passage",
+    "billTitle": "Department of Defense Appropriations Act, 2026",
+    "voteType": "Yea-And-Nay",
+    "status": "Passed",
+    "votes": {
+      "yea": 221,
+      "nay": 209,
+      "present": 0,
+      "notVoting": 2
+    }
+  },
+  {
+    "date": "Jul 18, 2025, 12:39 AM",
+    "congress": "119th Congress, 1st Session",
+    "rollCallNumber": "211",
+    "billNumber": "H. R. 4016",
+    "voteQuestion": "On Motion to Recommit",
+    "billTitle": "Department of Defense Appropriations Act, 2026",
+    "voteType": "Yea-And-Nay",
+    "status": "Failed",
+    "votes": {
+      "yea": 211,
+      "nay": 219,
+      "present": 0,
+      "notVoting": 2
+    }
+  },
+  {
+    "date": "Jul 18, 2025, 12:31 AM",
+    "congress": "119th Congress, 1st Session",
+    "rollCallNumber": "210",
+    "billNumber": "H. R. 4016",
+    "voteQuestion": "On Agreeing to the Amendment",
+    "billTitle": "",
+    "voteType": "Recorded Vote",
+    "status": "Failed",
+    "votes": {
+      "aye": 76,
+      "no": 355,
+      "present": 0,
+      "notVoting": 6
+    }
+  },
+  {
+    "date": "Jul 18, 2025, 12:27 AM",
+    "congress": "119th Congress, 1st Session",
+    "rollCallNumber": "209",
+    "billNumber": "H. R. 4016",
+    "voteQuestion": "On Agreeing to the Amendment",
+    "billTitle": "",
+    "voteType": "Recorded Vote",
+    "status": "Failed",
+    "votes": {
+      "aye": 76,
+      "no": 353,
+      "present": 0,
+      "notVoting": 8
+    }
+  },
+  {
+    "date": "Jul 18, 2025, 12:23 AM",
+    "congress": "119th Congress, 1st Session",
+    "rollCallNumber": "208",
+    "billNumber": "H. R. 4016",
+    "voteQuestion": "On Agreeing to the Amendment",
+    "billTitle": "",
+    "voteType": "Recorded Vote",
+    "status": "Failed",
+    "votes": {
+      "aye": 30,
+      "no": 400,
+      "present": 0,
+      "notVoting": 7
+    }
+  },
+  {
+    "date": "Jul 18, 2025, 12:20 AM",
+    "congress": "119th Congress, 1st Session",
+    "rollCallNumber": "207",
+    "billNumber": "H. R. 4016",
+    "voteQuestion": "On Agreeing to the Amendment",
+    "billTitle": "",
+    "voteType": "Recorded Vote",
+    "status": "Failed",
+    "votes": {
+      "aye": 6,
+      "no": 422,
+      "present": 0,
+      "notVoting": 9
+    }
+  },
+  {
+    "date": "Jul 18, 2025, 12:17 AM",
+    "congress": "119th Congress, 1st Session",
+    "rollCallNumber": "206",
+    "billNumber": "H. R. 4016",
+    "voteQuestion": "On Agreeing to the Amendment",
+    "billTitle": "",
+    "voteType": "Recorded Vote",
+    "status": "Failed",
+    "votes": {
+      "aye": 104,
+      "no": 326,
+      "present": 0,
+      "notVoting": 7
+    }
+  },
+  {
+    "date": "Jul 18, 2025, 12:13 AM",
+    "congress": "119th Congress, 1st Session",
+    "rollCallNumber": "205",
+    "billNumber": "H. R. 4016",
+    "voteQuestion": "On Agreeing to the Amendment",
+    "billTitle": "",
+    "voteType": "Recorded Vote",
+    "status": "Failed",
+    "votes": {
+      "aye": 6,
+      "no": 421,
+      "present": 0,
+      "notVoting": 10
+    }
+  },
+  {
+    "date": "Jul 18, 2025, 12:10 AM",
+    "congress": "119th Congress, 1st Session",
+    "rollCallNumber": "204",
+    "billNumber": "H. R. 4016",
+    "voteQuestion": "On Agreeing to the Amendment",
+    "billTitle": "",
+    "voteType": "Recorded Vote",
+    "status": "Failed",
+    "votes": {
+      "aye": 63,
+      "no": 365,
+      "present": 0,
+      "notVoting": 9
+    }
+  },
+  {
+    "date": "Jul 18, 2025, 12:03 AM",
+    "congress": "119th Congress, 1st Session",
+    "rollCallNumber": "203",
+    "billNumber": "H. Res. 590",
+    "voteQuestion": "On Agreeing to the Resolution",
+    "billTitle": "Relating to consideration of the Senate amendment to the bill (H.R. 4) to rescind certain budget authority proposed to be rescinded in special messages transmitted to the Congress by the President on June 3, 2025, in accordance with section 1012(a) of the Congressional Budget and Impoundment Control Act of 1974",
+    "voteType": "Recorded Vote",
+    "status": "Passed",
+    "votes": {
+      "aye": 216,
+      "no": 213,
+      "present": 0,
+      "notVoting": 3
+    }
+  },
+  {
+    "date": "Jul 17, 2025, 11:56 PM",
+    "congress": "119th Congress, 1st Session",
+    "rollCallNumber": "202",
+    "billNumber": "H. Res. 590",
+    "voteQuestion": "On Ordering the Previous Question",
+    "billTitle": "Relating to consideration of the Senate amendment to the bill (H.R. 4) to rescind certain budget authority proposed to be rescinded in special messages transmitted to the Congress by the President on June 3, 2025, in accordance with section 1012(a) of the Congressional Budget and Impoundment Control Act of 1974",
+    "voteType": "Yea-And-Nay",
+    "status": "Passed",
+    "votes": {
+      "yea": 218,
+      "nay": 211,
+      "present": 0,
+      "notVoting": 3
+    }
+  },
+  {
+    "date": "Jul 17, 2025, 04:01 PM",
+    "congress": "119th Congress, 1st Session",
+    "rollCallNumber": "201",
+    "billNumber": "H. R. 1919",
+    "voteQuestion": "On Passage",
+    "billTitle": "Anti-CBDC Surveillance State Act",
+    "voteType": "Yea-And-Nay",
+    "status": "Passed",
+    "votes": {
+      "yea": 219,
+      "nay": 210,
+      "present": 0,
+      "notVoting": 3
+    }
+  },
+  {
+    "date": "Jul 17, 2025, 03:53 PM",
+    "congress": "119th Congress, 1st Session",
+    "rollCallNumber": "200",
+    "billNumber": "",
+    "voteQuestion": "On Passage",
+    "billTitle": "GENIUS Act",
+    "voteType": "Yea-And-Nay",
+    "status": "Passed",
+    "votes": {
+      "yea": 308,
+      "nay": 122,
+      "present": 0,
+      "notVoting": 2
+    }
+  },
+  {
+    "date": "Jul 17, 2025, 03:30 PM",
+    "congress": "119th Congress, 1st Session",
+    "rollCallNumber": "199",
+    "billNumber": "H. R. 3633",
+    "voteQuestion": "On Passage",
+    "billTitle": "CLARITY Act",
+    "voteType": "Yea-And-Nay",
+    "status": "Passed",
+    "votes": {
+      "yea": 294,
+      "nay": 134,
+      "present": 0,
+      "notVoting": 4
+    }
+  },
+  {
+    "date": "Jul 16, 2025, 11:03 PM",
+    "congress": "119th Congress, 1st Session",
+    "rollCallNumber": "198",
+    "billNumber": "H. Res. 580",
+    "voteQuestion": "On Agreeing to the Resolution",
+    "billTitle": "Providing for consideration of the bills (H.R. 4016) Department of Defense Appropriations Act, 2026; (H.R. 3633) CLARITY Act; (H.R. 1919) Anti-CBDC Surveillance State Act; and (S. 1582) GENIUS Act",
+    "voteType": "Recorded Vote",
+    "status": "Passed",
+    "votes": {
+      "aye": 217,
+      "no": 212,
+      "present": 0,
+      "notVoting": 3
+    }
+  },
+  {
+    "date": "Jul 16, 2025, 01:18 PM",
+    "congress": "119th Congress, 1st Session",
+    "rollCallNumber": "197",
+    "billNumber": "H. Res. 580",
+    "voteQuestion": "On Motion to Reconsider",
+    "billTitle": "Providing for consideration of the bills (H.R. 4016) Department of Defense Appropriations Act, 2026; (H.R. 3633) CLARITY Act; (H.R. 1919) Anti-CBDC Surveillance State Act; and (S. 1582) GENIUS Act",
+    "voteType": "Yea-And-Nay",
+    "status": "Passed",
+    "votes": {
+      "yea": 215,
+      "nay": 211,
+      "present": 0,
+      "notVoting": 6
+    }
+  },
+  {
     "date": "Jul 15, 2025, 02:36 PM",
     "congress": "119th Congress, 1st Session",
     "rollCallNumber": "196",
